@@ -1,0 +1,87 @@
+{
+  "_note": "Maps each project folder to its README and zip. 'readme' and 'zip' are optional; defaults are <folder>/README.md and archives/<folder>.zip.",
+  "repo": "fahadmahmood8/python-pyautogui-pypercli",
+  "branch": "main",
+  "projects": [
+    {
+      "folder": "01-mouse-tracker",
+      "readme": "01-mouse-tracker/README.md",
+      "zip": "archives/01-mouse-tracker.zip"
+    },
+    {
+      "folder": "02-notepad-writer",
+      "readme": "02-notepad-writer/README.md",
+      "zip": "archives/02-notepad-writer.zip"
+    },
+    {
+      "folder": "03-paint-artist",
+      "readme": "03-paint-artist/README.md",
+      "zip": "archives/03-paint-artist.zip"
+    },
+    {
+      "folder": "04-screenshot-logger",
+      "readme": "04-screenshot-logger/README.md",
+      "zip": "archives/04-screenshot-logger.zip"
+    },
+    {
+      "folder": "05-clipboard-cleaner",
+      "readme": "05-clipboard-cleaner/README.md",
+      "zip": "archives/05-clipboard-cleaner.zip"
+    },
+    {
+      "folder": "06-image-click-bot",
+      "readme": "06-image-click-bot/README.md",
+      "zip": "archives/06-image-click-bot.zip"
+    },
+    {
+      "folder": "07-bulk-form-filler",
+      "readme": "07-bulk-form-filler/README.md",
+      "zip": "archives/07-bulk-form-filler.zip"
+    },
+    {
+      "folder": "08-window-organizer",
+      "readme": "08-window-organizer/README.md",
+      "zip": "archives/08-window-organizer.zip"
+    },
+    {
+      "folder": "09-wamp-page-tester",
+      "readme": "09-wamp-page-tester/README.md",
+      "zip": "archives/09-wamp-page-tester.zip"
+    },
+    {
+      "folder": "10-upload-verify-bot",
+      "readme": "10-upload-verify-bot/README.md",
+      "zip": "archives/10-upload-verify-bot.zip"
+    },
+    {
+      "folder": "11-visual-regression",
+      "readme": "11-visual-regression/README.md",
+      "zip": "archives/11-visual-regression.zip"
+    },
+    {
+      "folder": "12-retry-log-bot",
+      "readme": "12-retry-log-bot/README.md",
+      "zip": "archives/12-retry-log-bot.zip"
+    },
+    {
+      "folder": "13-localhost-bot-class",
+      "readme": "13-localhost-bot-class/README.md",
+      "zip": "archives/13-localhost-bot-class.zip"
+    },
+    {
+      "folder": "14-nightly-test-runner",
+      "readme": "14-nightly-test-runner/README.md",
+      "zip": "archives/14-nightly-test-runner.zip"
+    },
+    {
+      "folder": "15-shareable-exe",
+      "readme": "15-shareable-exe/README.md",
+      "zip": "archives/15-shareable-exe.zip"
+    },
+    {
+      "folder": "16-playwright-pyautogui",
+      "readme": "16-playwright-pyautogui/README.md",
+      "zip": "archives/16-playwright-pyautogui.zip"
+    }
+  ]
+}
