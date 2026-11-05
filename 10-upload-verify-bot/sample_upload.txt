@@ -1,0 +1,2 @@
+This file is uploaded by the Upload + Verify Bot to prove the whole flow works.
+If you can read this inside your server's uploads/ folder, the bot did its job.

@@ -1,0 +1,14 @@
+{
+  "base_url": "http://localhost",
+  "browser_wait": 3,
+  "screenshot_dir": "output/screenshots",
+  "report_dir": "output/reports",
+  "log_file": "output/bot.log",
+  "pages": [
+    { "name": "Home", "path": "/", "expect_text": "" },
+    { "name": "phpMyAdmin", "path": "/phpmyadmin/", "expect_text": "phpMyAdmin" },
+    { "name": "WordPress Login", "path": "/wordpress/wp-login.php", "expect_text": "Username or Email Address" },
+    { "name": "WordPress Home", "path": "/wordpress/", "expect_text": "" },
+    { "name": "Search", "path": "/wordpress/?s=test", "expect_text": "" }
+  ]
+}

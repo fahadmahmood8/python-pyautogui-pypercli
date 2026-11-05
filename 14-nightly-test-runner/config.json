@@ -1,0 +1,10 @@
+{
+  "timeout_seconds": 10,
+  "pages": [
+    { "name": "Home", "url": "http://localhost/", "expect_text": "", "max_seconds": 5 },
+    { "name": "phpMyAdmin", "url": "http://localhost/phpmyadmin/", "expect_text": "phpMyAdmin" },
+    { "name": "WordPress Login", "url": "http://localhost/wordpress/wp-login.php", "expect_text": "Log In" },
+    { "name": "WordPress Home", "url": "http://localhost/wordpress/", "expect_text": "" },
+    { "name": "Search", "url": "http://localhost/wordpress/?s=test", "expect_text": "" }
+  ]
+}

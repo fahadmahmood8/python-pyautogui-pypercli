@@ -1,0 +1,8 @@
+{
+  "load_wait": 4,
+  "urls": [
+    "http://localhost/",
+    "http://localhost/phpmyadmin/",
+    "https://example.com"
+  ]
+}

@@ -1,0 +1,2 @@
+Sample file for the Playwright + PyAutoGUI demo.
+Playwright checks the DOM; PyAutoGUI picks this file in the native dialog.

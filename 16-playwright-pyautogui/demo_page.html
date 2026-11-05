@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Playwright + PyAutoGUI Demo</title>
+<style>
+  body { font-family: system-ui, sans-serif; background: #f5f3ff; display: grid; place-items: center; min-height: 100vh; margin: 0; }
+  .card { background: #fff; padding: 32px; border-radius: 12px; box-shadow: 0 6px 24px rgba(124,58,237,.15); min-width: 320px; }
+  h1 { margin: 0 0 16px; color: #5b21b6; font-size: 22px; }
+  #filename { display: block; margin-top: 14px; font-weight: 600; color: #16a34a; min-height: 1.2em; }
+</style>
+</head>
+<body>
+<div class="card">
+  <h1>Upload a file</h1>
+  <input type="file" id="file-input">
+  <span id="filename"></span>
+</div>
+<script>
+  document.getElementById('file-input').addEventListener('change', function (e) {
+    var f = e.target.files[0];
+    document.getElementById('filename').textContent = f ? f.name : '';
+  });
+</script>
+</body>
+</html>

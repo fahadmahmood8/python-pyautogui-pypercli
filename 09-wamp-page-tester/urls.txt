@@ -1,0 +1,8 @@
+# One URL per line. Lines starting with # are ignored.
+# Replace these with pages from your own WAMP projects.
+http://localhost/
+http://localhost/phpmyadmin/
+http://localhost/index.php
+http://localhost/wordpress/
+http://localhost/wordpress/wp-login.php
+http://localhost/wordpress/?s=test

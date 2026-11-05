@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+screenshots/
+captures/
+diffs/
+failures/
+logs/
+output/
+results/
+dist/
+build/
+*.spec
+report.csv
+upload_failed.png

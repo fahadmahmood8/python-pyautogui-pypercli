@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Demo Contact Form</title>
+<style>
+  body { font-family: system-ui, sans-serif; background: #f5f3ff; display: grid; place-items: center; min-height: 100vh; margin: 0; }
+  form { background: #fff; padding: 28px; border-radius: 12px; width: 340px; box-shadow: 0 6px 24px rgba(124,58,237,.15); }
+  h1 { font-size: 20px; margin: 0 0 16px; color: #5b21b6; }
+  label { display: block; font-size: 13px; margin: 10px 0 4px; }
+  input, textarea { width: 100%; box-sizing: border-box; padding: 8px; border: 1px solid #c4b5fd; border-radius: 6px; font: inherit; }
+  button { margin-top: 16px; width: 100%; padding: 10px; background: #7c3aed; color: #fff; border: 0; border-radius: 6px; font: inherit; cursor: pointer; }
+  #result { margin-top: 14px; padding: 10px; background: #dcfce7; border-radius: 6px; display: none; }
+</style>
+</head>
+<body>
+<form id="f">
+  <h1>Demo Contact Form</h1>
+  <label for="name">Name</label>
+  <input id="name" name="name" autofocus>
+  <label for="email">Email</label>
+  <input id="email" name="email" type="email">
+  <label for="phone">Phone</label>
+  <input id="phone" name="phone">
+  <label for="message">Message</label>
+  <input id="message" name="message">
+  <button type="submit">Send</button>
+  <div id="result"></div>
+</form>
+<script>
+  // Pressing Enter inside a single-line input submits the form, which is what the bot does.
+  // (If your real form ends with a textarea, Enter adds a new line - use --click on the submit button instead.)
+  document.getElementById('f').addEventListener('submit', function (e) {
+    e.preventDefault();
+    var box = document.getElementById('result');
+    box.style.display = 'block';
+    box.textContent = 'Thanks, ' + document.getElementById('name').value + '! Message received.';
+  });
+</script>
+</body>
+</html>
